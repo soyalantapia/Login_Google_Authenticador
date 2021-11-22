@@ -1,0 +1,15 @@
+# Proyecto Validacion dos pasos - Google google authenticator
+
+He creado un sistema de validacion con google authenticator que hace que te puedas ingresar al sistema de una plataforma pero tengas
+que generar un codigo o poner el tuyo llegado al caso ya la hayas realizado para poder ingresar a tu cuenta, esto ayuda
+a que no cualquier persona con usuario y contraseña pueda ingresar.
+
+- El codigo se encuentra totalmente documentado
+- Uilize una Libreria llamada PHPgansta <https://github.com/PHPGangsta/GoogleAuthenticator>
+- Para activar la base de datos, es subir los archivos SQL y verificar la carpeta conexion.php 
+- En el codigo la linea N°2 Presenta un breve resumen de lo que se hace en la pagina correspondiente
+
+## Sistema de paginas y Redirecciones 
+
+index.php --> verificacion_de_usuario.php --> key.php --> generate.php --> key.php ---> plataforma.php   (PRIMERA VEZ )
+                                                      --> plataforma.php (REGULARMENTE)
